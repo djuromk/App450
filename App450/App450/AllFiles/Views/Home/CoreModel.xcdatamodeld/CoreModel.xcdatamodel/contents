@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CalcModel" representedClassName="CalcModel" syncable="YES" codeGenerationType="class">
+        <attribute name="calAmount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="calPayment" optional="YES" attributeType="String"/>
+        <attribute name="calTerm" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CatModel" representedClassName="CatModel" syncable="YES" codeGenerationType="class">
+        <attribute name="catAmount" optional="YES" attributeType="String"/>
+        <attribute name="catCat" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HistoryModel" representedClassName="HistoryModel" syncable="YES" codeGenerationType="class">
+        <attribute name="hisCat" optional="YES" attributeType="String"/>
+        <attribute name="hisPayment" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
